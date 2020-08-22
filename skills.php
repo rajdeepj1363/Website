@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="shortcut icon" href="images/favicons/favicon.ico">
+    <title>Skills | RJ</title>
+
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Bungee&display=swap" rel="stylesheet">  </head>
+
+  </head>
+
+  <body>
+
+    <section id="skills">
+      <!-- Navbar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#"><img src="images/favicons/favicon.ico"></img></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item px-3">
+          <a class="nav-link" href="about.php">About Me</a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-link" href="education.php">Education</a>
+        </li>
+        <li class="nav-item active px-3">
+          <a class="nav-link" href="#">Skills <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-link" href="projects.php">Projects</a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-link" href="#blogs">Resume</a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-link" href="experience.php">Experience</a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-link" href="contact.php">Contact</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <div class="skill-div" style="margin-top:25px;">
+
+    <h1>Skills</h1>
+    <h3>Things I'm proficient in working with!</h3>
+
+    <div class="row">
+      <div class="col-md-6  col-lg-4 c">
+        <i class="fas fa-code skillicons"></i>
+        <h5>Programming with Python, Java,<br> JS, C++, C</h5>
+      </div>
+      <div class="col-md-6 col-lg-4 c">
+        <i class="fas fa-database skillicons"></i>
+        <h5>Database management using <br>SQL, Firebase</h5>
+      </div>
+      <div class="col-md-6 col-lg-4 c">
+        <i class="fab fa-github skillicons"></i>
+        <h5>Git</h5>
+      </div>
+      <div class="col-md-6 col-lg-4 c">
+        <i class="fas fa-file-csv skillicons"></i>
+        <h5>Data Extraction, Data Cleaning, <br>Data Visualisation, Model Training</h5>
+      </div>
+      <div class="col-md-6 col-lg-4 c">
+        <i class="fas fa-tools skillicons"></i>
+        <h5>Embedded Electronics, PIC Microcontrollers, <br>ARM Processors, Assembly Language</h5>
+      </div>
+      <div class="col-md-6 col-lg-4 c">
+        <i class="fas fa-language skillicons"></i>
+        <h5>Foreign Language Enthusiast <br> JLPT N5 Certified</h5>
+      </div>
+
+    </div>
+
+    </section>
+
+
+
+  </body>
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+
+</html>

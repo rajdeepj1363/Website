@@ -1,0 +1,71 @@
+html{
+  width: 100%;
+  height: 100%;
+}
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: 'Balsamiq Sans', cursive;
+}
+#banner
+{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+
+.banner_video {
+
+  width: 100vw;
+  height: 100%;
+}
+.bannertxt
+{
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(-50%, -50%);
+}
+.home_links{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  margin-top:50px;
+  transform: translate(-50%, -50%);
+}
+.home_button{
+  border: 2px solid #fff;
+  background:transparent;
+  padding: 5px 20px;
+  color: #fff;
+}
+.home_button:hover{
+  color:#000;
+  background: #f4f6ff;
+}
+.about_wrapper{
+  position: absolute;
+
+}
+.about_rj_img{
+  width: 175px;
+  border-radius: 50%;
+  margin-left: 50%;
+  transform: translate(-50%,50%);
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  background: rgba(0,0,0,0.8);
+
+
+}
