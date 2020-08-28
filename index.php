@@ -67,6 +67,12 @@
   <script type="text/javascript" src="js/jquery.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
   <script type="text/javascript">
+
+    if(confirm("You have come to Dark theme site, do you want to redirect to Light theme?"))
+    {
+      window.open("https://rajdeepj1363.github.io/PersonalSite/","_self");
+    }
+
   var text = document.getElementById('typewriter_result');
 
   var typewriter = new Typewriter(text, {
