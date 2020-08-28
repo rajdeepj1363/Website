@@ -61,7 +61,7 @@
       <li class="nav-item px-3">
         <a class="nav-link" href="skills.php">Skills</a>
       </li>
-      <li class="nav-item px-3">
+      <li class="nav-item  active px-3">
         <a class="nav-link" href="#">Projects <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item px-3">
@@ -70,7 +70,7 @@
       <li class="nav-item px-3">
         <a class="nav-link" href="experience.php">Experience</a>
       </li>
-      <li class="nav-item  active px-3">
+      <li class="nav-item  px-3">
         <a class="nav-link" href="contact.php">Contact</a>
       </li>
     </ul>
