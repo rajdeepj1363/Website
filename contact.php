@@ -150,7 +150,7 @@
       var mail_data = "Name="+$("#form_name").val()+"&Email="+$("#form_email").val()+"&Contact="+$("#form_number").val()+"&Message="+$("#form_msg").val();
       return $.ajax({
         method:"POST",
-        url:"send.php",
+        url:"www.rj-v2.herokuapp.com/send.php",
         data:mail_data,
         cache: false,
         success:function(e){
