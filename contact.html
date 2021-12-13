@@ -55,8 +55,8 @@
       color:#000;
     }
     .social_icons i{
-      font-size: 30px;
-      margin: 0 7px;
+      font-size: 16vw;
+      margin: 100px 15px auto 15px;
     }
     @media (max-width:550px)
     {
@@ -78,6 +78,13 @@
         width: 100%;
       }
 
+    }
+    #contact_footer
+    {
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      text-align: center;
     }
   </style>
   <body>
@@ -122,13 +129,7 @@
 
       <h1><span style="color:yellow;font-family:'Bungee', cursive;font-size:50px;">Connect with me </span> <i class="fas fa-arrow-down down-arrow"></i></h1>
       <div class="contact-form">
-        <form id="contact_form" class="" action="send.php" method="post">
-          <input type="text" name="Name" id="form_name" placeholder="Name" required>
-          <input type="email" name="Email" id="form_email" placeholder="Email" required>
-          <input type="text" name="" id="form_number" placeholder="Contact number"><br>
-          <textarea name="name" id="form_msg" rows="8" cols="85" maxlength="250" placeholder="Type your Message" required></textarea><br>
-          <button type="submit" name="button" class="sendMessage" onclick="sendEmail()">Send Message To Rajdeep Jadhav</button>
-        </form>
+       
 
         <div class="social_icons">
           <a href="https://www.linkedin.com/in/rajdeepjadhav"><i class="fab fa-linkedin"></i></a>
@@ -136,30 +137,18 @@
           <a href="https://www.instagram.com/___13rajdeeprj"><i class="fab fa-instagram"></i></a>
           <a href="https://github.com/rajdeepj1363"><i class="fab fa-github"></i></a>
         </div>
-        <p>Copyrights @ 2020 Rajdeep Jadhav</p>
+        
       </div>
 
+    </section>
+    <section id="contact_footer">
+      <p>&copy2021 Rajdeep Jadhav</p>
     </section>
 
   </body>
 
   <script type="text/javascript" src="js/jquery.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
-  <script type="text/javascript">
-    function sendEmail(){
-      var mail_data = "Name="+$("#form_name").val()+"&Email="+$("#form_email").val()+"&Contact="+$("#form_number").val()+"&Message="+$("#form_msg").val();
-      return $.ajax({
-        method:"POST",
-        url:"www.rj-v2.herokuapp.com/send.php",
-        data:mail_data,
-        cache: false,
-        success:function(e){
-          document.getElementById("contact_form").reset();
-          alert(e);
-        }
-      });
-      return false;
-    }
-  </script>
+  
 
 </html>
